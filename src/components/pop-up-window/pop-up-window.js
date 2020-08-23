@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import './style_popup.css'
+
 import './maps/cube-solid.svg'
 
 export default class InteriorImage extends Component {
@@ -74,7 +75,8 @@ export default class InteriorImage extends Component {
           <label>
             <p>UUID</p>
           </label>
-          <input type="text"
+          <input className="int-img-fields"
+                 type="text"
                  name="int-UUID"
                  placeholder="enter text"
                  onChange={this.onUuidChange}
@@ -83,7 +85,8 @@ export default class InteriorImage extends Component {
           <label>
             <p>Campaign</p>
           </label>
-          <input type="text"
+          <input className="int-img-fields"
+                 type="text"
                  name="int-campaign"
                  placeholder="enter text"
                  onChange={this.onCampaignChange}
@@ -92,7 +95,8 @@ export default class InteriorImage extends Component {
           <label>
             <p>Furniture</p>
           </label>
-          <input type="text"
+          <input className="int-img-fields"
+                 type="text"
                  name="int-campaign"
                  placeholder="enter text"
                  onChange={this.onFurnitureChange}
@@ -101,7 +105,8 @@ export default class InteriorImage extends Component {
           <label>
             <p>Colors</p>
           </label>
-          <input type="text"
+          <input className="int-img-fields"
+                 type="text"
                  name="int-colors"
                  placeholder="enter text"
                  onChange={this.onColorsChange}
@@ -110,7 +115,8 @@ export default class InteriorImage extends Component {
           <label>
             <p>Materials</p>
           </label>
-          <input type="text"
+          <input className="int-img-fields"
+                 type="text"
                  name="int-materials"
                  placeholder="enter text"
                  onChange={this.onMaterialsChange}
@@ -119,7 +125,8 @@ export default class InteriorImage extends Component {
           <label>
             <p>Description</p>
           </label>
-          <textarea name="int-description"
+          <textarea className="int-img-description"
+                    name="int-description"
                     rows="5"
                     cols="80"
                     placeholder="enter text"
