@@ -1,0 +1,363 @@
+@font-face {
+  font-family: MaisonNeue-Demi;
+  src: url("fonts/MaisonNeue-Demi.otf") format("opentype");
+}
+
+.cover {
+  position: fixed;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.1;
+  /* z-index: 2; */
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  min-height: 50px;
+  width: auto;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-logo {
+  height: 60px;
+  width: auto;
+  float: left;
+}
+
+.menu a {
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+.menu-item {
+  color: black;
+  font-family: MaisonNeue-Demi, sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 40px;
+}
+
+.fixed-container_1 {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+.hero-block {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 580px;
+  width: auto;
+  background-image: url('maps/gal5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-block h3 {
+  padding-top: 100px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: MaisonNeue-Demi, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.hero-block p {
+  color: white;
+  font-family: MaisonNeue-Demi, sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.create-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: MaisonNeue-Demi, sans-serif;
+  font-size: 25px;
+  max-width: 1000px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding-bottom: 20px;
+}
+
+.add-interior-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.new_int_img {
+  min-width: 250px;
+  min-height: 250px;
+  background-image: url('maps/image-regular.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
+  -webkit-transition: opacity 0.35s ease;
+  background-size: 150px;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.new_int_img:hover {
+  opacity: 0.8;
+  -webkit-transition: opacity 0.35s ease;
+}
+
+.new_int_img h5 {
+  padding-bottom: 600px;
+}
+
+.add-product-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.new_prod_img {
+  min-width: 250px;
+  min-height: 250px;
+  background-image: url('maps/cube-solid.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  opacity: 0.3;
+  -webkit-transition: opacity 0.35s ease;
+  background-size: 150px;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.new_prod_img:hover {
+  opacity: 0.8;
+  -webkit-transition: opacity 0.35s ease;
+}
+
+.add-video_animation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.new_anim {
+  min-width: 250px;
+  min-height: 250px;
+  background-image: url('maps/video-solid.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
+  -webkit-transition: opacity 0.35s ease;
+  background-size: 150px;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.new_anim:hover {
+  opacity: 0.8;
+  -webkit-transition: opacity 0.35s ease;
+}
+
+.search_form {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.search_bar {
+  margin-top: 20px;
+}
+
+#flabel p {
+  font-family: MaisonNeue-Demi, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  width: 100%
+}
+
+#fname {
+  font-family: MaisonNeue-Demi, sans-serif;
+  font-size: 20px;
+  padding-left: 30px;
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 970px;
+  height: 40px;
+}
+
+.gallery {
+  max-height: 450px;
+}
+
+.gallery-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.gallery-menu a {
+  color: black;
+  text-decoration: underline;
+  font-family: MaisonNeue-Demi, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fixed-container_2 {
+  position: relative;
+  height: 350px;
+}
+
+.gallery-items {
+  max-width: 1000px;
+  margin-top: 20px;
+  ;
+  position: relative;
+}
+
+.gallery-items img {
+  padding-right: 10px;
+  padding-top: 10px;
+  height: 100px;
+  width: auto;
+  -webkit-transition: width 0.25s ease, height 0.25s ease;
+}
+
+.gallery-items img:hover {
+  position: sticky;
+  height: 120px;
+  width: auto;
+  -webkit-transition: width 0.25s ease, height 0.25s ease;
+}
+
+.img_info {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-height: 400px;
+  padding-top: 20px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  background-color: lightgrey;
+}
+
+.img_info_img {
+  height: 350px;
+  -webkit-transition: width 0.25s ease, height 0.25s ease;
+}
+
+.img_info_img:hover {
+  height: 540px;
+  -webkit-transition: width 0.25s ease, height 0.25s ease;
+}
+
+.img-left-block {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.img-right-block {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 700px;
+}
+
+.info_area {
+  max-width: 600px;
+  color: grey;
+  font-family: MaisonNeue-Demi, sans-serif;
+  font-size: 18px;
+}
+
+.info_area h3 {
+  color: black;
+  font-size: 25px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.info_area h4 {
+  color: black;
+}
+
+#edit {}
+
+#save {
+  visibility: hidden;
+}
+
+#delete {
+  visibility: hidden;
+}
+
+.fixed-container_3 {
+  width: 100%;
+  background-color: lightgrey;
+  height: 50px;
+}
+
+.img_actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: lightgrey;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  max-width: 1000px;
+}
+
+.action-item {
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-family: MaisonNeue-Demi, sans-serif;
+  font-size: 25px;
+}
+
+.action-item:hover {
+  color: lightgrey;
+  background-color: black;
+}
+
+/* styles_popup */
